@@ -12,7 +12,7 @@
 
 <br>
 
-<a href="[https://github.com/NebulaSkyblock/nebula-client](https://github.com/NebulaSkyblock/nebula-client)/releases/latest">
+<a href="https://github.com/NebulaSkyblock/nebula-client/releases">
   <img
     src="https://img.shields.io/badge/Download%20NebulaClient-Latest%20Release-7c3aed?style=for-the-badge&logo=github&logoColor=white"
     alt="Download NebulaClient - Latest Release"
